@@ -1,0 +1,390 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: rgb(4, 79, 74);
+}
+/* styling the NAVBAR */
+nav {
+    display: flex;
+    place-content: center;
+    padding: 40px;
+    gap: 5rem;
+}    
+nav .team-logo {
+    position: absolute;
+    left: 3%;
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+.text-logo {
+    display: inherit;
+    gap: 2.2rem;
+    position: relative;
+    margin-right: 25rem;
+    top: 15px;
+}
+.text-logo a {
+    font-weight: 500;
+    font-family: sans-serif;
+    color: aliceblue;
+}
+button {
+    position: relative;
+    top: -10px;
+    margin-left: 20rem;
+    border: 2px solid black;
+    border-radius: 20%;
+    padding: 10px;
+}
+/* THE ABOUT SECTION */
+/* the mini-horizontal line */
+hr {
+    width: 3%;
+    background: tomato;
+    color: tomato; 
+    position: relative;
+    left: 14%;
+    top: 12px;
+}
+/* styling the h1 */
+h1 {
+    position: relative;
+    top: 20%;
+    margin-left: 3rem;
+}
+/* p1-container */
+.p1-container {
+    position: relative;
+    top: -18px;
+    margin-left: 13rem;
+}
+/* semi-circle section */
+/* DIRECTORS SECTION */
+h2 {
+    position: absolute;
+    top: 38%;
+    right: 46%;
+}
+/* images section */
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    position: relative;
+    top: 140px; 
+}
+.card {
+    background: rgb(2, 57, 55);
+    width: 220px;
+    height: 150px;
+    margin: 10px;
+}
+.card-image {
+    height: 100px; 
+}
+.card-image img {
+    height: 8vh;
+    position: relative;
+    right: -35%;
+    top: 12px;
+    border: 2px solid white;
+    border-radius: 70px;    
+}
+/* image section 2 */
+.image-container2 {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    position: relative;
+    top: 160px;
+}
+.card2 {
+    background:  rgb(2, 57, 55);;
+    width: 220px;
+    height: 150px;
+    margin: 10px;
+}
+.card-image2 {
+    height: 100px; 
+}    
+.card-image2 img {
+    height: 8vh;
+    position: relative;
+    right: -28%;
+    top: 12px;
+    border: 2px solid white;
+    border-radius: 70%;
+}  
+/* h3 styling */
+h3 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    position: relative;
+    top: -13%;
+    left: 25%;
+    color: rgb(5, 84, 84);
+}
+h4 {
+    font-size: 1rem;
+    font-family: sans-serif;
+    position: relative;
+    top: -60%;
+    margin-left: 3rem;
+    color: rgb(5, 78, 75);
+}
+/* paragraph styling */
+.p2-container {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    top: -10%;
+    margin-left: 3rem;
+}
+.p3-container {
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    position: relative;
+    top: -10%;
+    margin-left: 2.5rem;
+
+}
+p {
+    font-family: sans-serif;
+    font-size: 0.7rem;
+    position: relative;
+    top: -55%;
+    margin-left: 0.8rem;
+    color: rgb(198, 183, 183);  
+}
+/* icon sesction */
+i {
+    position: relative;
+    top: -55%;
+    left: 35%;
+}
+/* small circle and + section */
+.container2 {
+    display: flex;
+    position: relative;
+    gap: 5rem;
+    margin-left: 40rem;
+}
+.circle2 {
+    width: 35px;
+    height: 23px;
+    border: 2px solid tomato;
+    border-radius: 50%;
+    background-color: tomato;
+    position: relative;
+    top: -54px;
+    right: 25%;
+}
+.circle3 {
+    width: 35px;
+    height: 23px;
+    border: 2px solid tomato;
+    border-radius: 50%;
+    background-color: tomato;
+    position: relative;
+    top: -54px;
+    right: 2%;
+}
+.circle4 {
+    width: 35px;
+    height: 23px;
+    border: 2px solid tomato;
+    border-radius: 50%;
+    background-color: tomato;
+    position: relative;
+    top: -54px;
+    right: -22%;
+}
+.circle5 {
+    width: 35px;
+    height: 23px;
+    border: 2px solid tomato;
+    border-radius: 50%;
+    background-color: tomato;
+    position: relative;
+    top: 135px;
+    left: -64%;
+}
+.circle6 {
+    width: 35px;
+    height: 23px;
+    border: 2px solid tomato;
+    border-radius: 50%;
+    background-color: tomato;
+    position: relative;
+    top: 138px;
+    left: -41%;
+}
+.circle7 {
+    width: 35px;
+    height: 23px;
+    border: 2px solid  rgb(11, 213, 200);
+    border-radius: 50%;
+    background-color: rgb(11, 206, 193);
+    position: relative;
+    top: 135px;
+    left: -17%;
+}
+/* + and * section */
+.sign1 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: -33%;
+    left: 6px;
+}
+.sign2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: -33%;
+    left: 6px;
+}
+.sign3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: -33%;
+    left: 6px;
+}
+.sign4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: -33%;
+    left: 6px;
+}
+.sign5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: -33%;
+    left: 6px;
+}
+.sign6 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    position: relative;
+    top: -33%;
+    left: 6px;
+}
+/* Heading and logos */
+.heading-container {
+    border: 2px solid rgb(2, 57, 55);
+    background-color:  rgb(1, 37, 36);
+    position: relative;
+    top: 180px;
+}
+.heading {
+    display: flex;
+    place-content: center;
+    font-size: 3rem;
+    position: relative;
+    top: 70px;
+    color: white;
+    height: 50vh;
+}
+.logo {
+    display: flex;
+    place-content: center;
+    gap: 5rem;
+    position: relative;
+    top: -200px
+}
+.logo1 img {
+    height: 4vh;
+}
+.logo2 img {
+    height: 4vh;
+     
+}
+.logo3 img {
+    height: 4vh;
+}
+
+.logo4 img {
+    height: 4vh;
+}
+.logo5 img {
+    height: 4vh;
+}
+/* Tomato Margin */
+.heading2 {
+    border: 2px solid tomato;
+    position: relative;
+    top: 80px;
+    height: 110px;
+    background: tomato;
+}
+h6 {
+    font-size: 2rem;
+    font-weight: bold;
+    color:  rgb(2, 57, 55);
+    position: relative;
+    margin-left: 3rem;
+    top: 30px;
+}
+.contactus {
+    position: relative;
+    margin-left: 70rem;
+    top: -10px;
+}
+/* footer */
+footer {
+    font-size: 2rem;
+    position: relative;
+    left: 0%;
+    top: 80px;
+    border: 2px solid rgb(2, 57, 55);
+    height: 150px;
+    background:  rgb(2, 57, 55);
+}
+.footer1{
+    position: relative;
+    top: 20px;
+    margin-left: 3rem;
+}
+.footer1 a {
+    color: white;
+}
+.footer2 {
+    position: relative;
+    top: 25px;
+    margin-left: 3rem;
+}
+.footer2 a {
+    color: white;
+    font-size: 1rem;
+}
+.p4container {
+    position: relative;
+    top: -35px;
+    margin-left: 12rem;
+}
+.p6container {
+    position: relative;
+    top: -35px;
+    margin-left: 75rem;
+}
+.icon2 {
+    position: relative;
+    top: -100px;
+    margin-left: 70rem;
+    font-size: 1.5rem;
+}
+@media (min-width: 900px) {
+    nav {
+        margin-left: 0px;
+    }
+    
+}
+
